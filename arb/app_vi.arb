@@ -1,0 +1,397 @@
+{
+  "@@locale": "vi",
+  "navHome": "Trang chủ",
+  "navOverview": "Tổng quan",
+  "fieldEnterPlaceholder": "Nhập {field}",
+  "fieldSelectPlaceholder": "Chọn {field}",
+  "actionShowPassword": "Hiện mật khẩu",
+  "actionHidePassword": "Ẩn mật khẩu",
+  "pressBackAgainToExit": "Nhấn Back lần nữa để thoát",
+  "navVehicles": "Xe của tôi",
+  "navTimeline": "Nhật ký",
+  "navBudget": "Ngân sách",
+  "navExpenses": "Chi tiêu",
+  "navShop": "Cửa hàng",
+  "navPremium": "Nâng cấp Premium",
+  "navSettings": "Cài đặt",
+  "navAccount": "Tài khoản",
+  "homeWelcome": "Chào mừng đến với {appName}",
+  "@homeWelcome": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSubtitle": "Theo dõi bảo dưỡng, chi tiêu và ngân sách cho xe của bạn.",
+  "settingsLanguage": "Ngôn ngữ",
+  "languageVietnamese": "Tiếng Việt",
+  "languageEnglish": "Tiếng Anh",
+  "comingSoon": "Sắp có",
+  "legalGuide": "Hướng dẫn sử dụng",
+  "legalFaq": "Câu hỏi thường gặp",
+  "legalTerms": "Điều khoản sử dụng",
+  "legalPrivacy": "Chính sách bảo mật",
+  "authLoginTitle": "Đăng nhập",
+  "authRegisterTitle": "Tạo tài khoản",
+  "authForgotPasswordTitle": "Đặt lại mật khẩu",
+  "authEmailLabel": "Email",
+  "authPasswordLabel": "Mật khẩu",
+  "authConfirmPasswordLabel": "Xác nhận mật khẩu",
+  "authLoginButton": "Đăng nhập",
+  "authRegisterButton": "Tạo tài khoản",
+  "authGoogleButton": "Tiếp tục với Google",
+  "authSendResetLinkButton": "Gửi liên kết đặt lại",
+  "authNoAccount": "Chưa có tài khoản?",
+  "authHaveAccount": "Đã có tài khoản?",
+  "authRegisterLink": "Đăng ký",
+  "authLoginLink": "Đăng nhập",
+  "authForgotPasswordLink": "Quên mật khẩu?",
+  "authResetLinkSent": "Đã gửi email đặt lại mật khẩu. Hãy kiểm tra hộp thư của bạn.",
+  "authPasswordMismatch": "Mật khẩu xác nhận không khớp",
+  "authGenericError": "Có lỗi xảy ra. Vui lòng thử lại.",
+  "authLogout": "Đăng xuất",
+  "authLogoutConfirmTitle": "Đăng xuất?",
+  "authLogoutConfirmMessage": "Bạn có chắc muốn đăng xuất không?",
+  "authSignedInAs": "Đã đăng nhập: {email}",
+  "accountTitle": "Tài khoản",
+  "accountEditTitle": "Chỉnh sửa hồ sơ",
+  "accountNameLabel": "Tên",
+  "accountCurrencyLabel": "Đơn vị tiền tệ",
+  "accountUpdatedMessage": "Đã cập nhật tài khoản",
+  "accountConnectedAccountsTitle": "Tài khoản đã kết nối",
+  "accountProviderPassword": "Email & mật khẩu",
+  "errorGeneric": "Có lỗi xảy ra. Vui lòng thử lại.",
+  "actionSave": "Lưu",
+  "actionCancel": "Hủy",
+  "actionEdit": "Sửa",
+  "actionDelete": "Xoá",
+  "vehiclesEmpty": "Bạn chưa có xe nào. Thêm xe để bắt đầu.",
+  "vehicleAddButton": "Thêm xe",
+  "vehicleFormTitleAdd": "Thêm xe",
+  "vehicleFormTitleEdit": "Sửa thông tin xe",
+  "vehicleNameLabel": "Tên xe",
+  "vehicleTypeLabel": "Loại xe",
+  "vehicleTypeCar": "Ô tô",
+  "vehicleTypeElectricCar": "Ô tô điện",
+  "vehicleTypeMotorbike": "Xe máy",
+  "vehicleTypeElectricMotorbike": "Xe máy điện",
+  "vehicleTypeElectricBicycle": "Xe đạp điện",
+  "vehicleTypeOther": "Khác",
+  "vehicleTypeLockedHint": "Loại xe không thể thay đổi sau khi tạo.",
+  "vehicleBrandOther": "Hãng khác",
+  "vehicleBrandSearch": "Tìm hãng xe...",
+  "vehicleBrandNameLabel": "Tên hãng xe",
+  "vehiclePlateLabel": "Biển số",
+  "vehicleBrandLabel": "Hãng xe",
+  "vehicleModelLabel": "Dòng xe",
+  "vehicleYearLabel": "Năm sản xuất",
+  "vehicleOdometerLabel": "Số ODO ({unit})",
+  "vehicleLimitReached": "Gói Freemium chỉ được tối đa 1 xe. Nâng cấp Premium để thêm xe.",
+  "sharingRequiresPremium": "Chia sẻ xe với người khác chỉ dành cho gói Premium.",
+  "premiumScreenTitle": "Premium",
+  "premiumStatusFreeLabel": "Bạn đang dùng gói Free.",
+  "premiumStatusPremiumUntilLabel": "Bạn đang dùng Premium — gia hạn/hết hạn ngày {date}.",
+  "premiumStatusLifetimeLabel": "Bạn đang dùng Premium trọn đời.",
+  "premium6MonthsTitle": "Gói 6 tháng",
+  "premium1YearTitle": "Gói 1 năm",
+  "premiumLifetimeTitle": "Trọn đời",
+  "premium6MonthsFallbackPrice": "129.000đ",
+  "premium1YearFallbackPrice": "249.000đ",
+  "premiumLifetimeFallbackPrice": "1.299.000đ",
+  "premiumBuyButton": "Mua",
+  "premiumRestoreButton": "Khôi phục giao dịch",
+  "premiumProductUnavailableMessage": "Sản phẩm này chưa sẵn sàng trên store.",
+  "premiumPurchaseErrorMessage": "Không thể bắt đầu giao dịch mua. Vui lòng thử lại.",
+  "premiumRestoreRequestedMessage": "Đã gửi yêu cầu khôi phục giao dịch.",
+  "premiumHeroTitle": "Nâng cấp Premium",
+  "premiumHeroSubtitle": "Mở khoá toàn bộ tính năng của {appName}.",
+  "@premiumHeroSubtitle": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumBenefitVehicles": "Quản lý số xe không giới hạn",
+  "premiumBenefitSharing": "Chia sẻ xe với không giới hạn thành viên",
+  "premiumBenefitNoAds": "Không quảng cáo",
+  "premiumBestValueBadge": "Tiết kiệm nhất",
+  "premiumOneTimeCaption": "Thanh toán một lần",
+  "premiumPerMonthCaption": "{price} / tháng",
+  "@premiumPerMonthCaption": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumContinueButton": "Nâng cấp Premium",
+  "premiumVerificationPendingNote": "Hệ thống xác thực thanh toán đang được hoàn thiện — gói Premium sẽ được kích hoạt sau khi xác thực xong.",
+  "shopSearchHint": "Tìm sản phẩm",
+  "shopCategoryAll": "Tất cả",
+  "shopEmptyMessage": "Chưa có sản phẩm nào.",
+  "shopOpenLinkErrorMessage": "Không thể mở liên kết sản phẩm này.",
+  "linkOpenErrorMessage": "Không thể mở liên kết này.",
+  "premiumCheckoutErrorMessage": "Không thể tạo phiên thanh toán. Vui lòng thử lại.",
+  "premiumSuccessTitle": "Thanh toán thành công",
+  "premiumSuccessMessage": "Cảm ơn bạn! Gói Premium sẽ được kích hoạt sau khi hệ thống xác nhận thanh toán, thường trong vài giây.",
+  "premiumCancelTitle": "Đã huỷ thanh toán",
+  "premiumCancelMessage": "Bạn đã huỷ giao dịch. Không có khoản phí nào được tính.",
+  "vehicleDeleteConfirmTitle": "Xoá xe này?",
+  "vehicleDeleteConfirmMessage": "Hành động này không thể hoàn tác.",
+  "vehicleDeleteBlockedHasMembers": "Cần xoá hết member trước khi xoá xe.",
+  "vehicleMembersTitle": "Thành viên",
+  "vehicleOwnerLabel": "Chủ xe",
+  "vehicleMemberLabel": "Thành viên",
+  "vehicleInviteTitle": "Mời thành viên",
+  "vehicleInviteEmailLabel": "Email",
+  "vehicleInviteSendButton": "Gửi lời mời",
+  "vehicleInviteSentMessage": "Đã gửi lời mời. Người được mời sẽ thấy khi đăng nhập bằng email đó.",
+  "vehicleInviteHistoryTitle": "Lời mời đã gửi",
+  "inviteStatusPending": "Đang chờ",
+  "inviteStatusAccepted": "Đã chấp nhận",
+  "inviteStatusDeclined": "Đã từ chối",
+  "pendingInvitesTitle": "Lời mời cho bạn",
+  "pendingInvitesForVehicle": "Lời mời tham gia 1 xe",
+  "inviteAcceptButton": "Chấp nhận",
+  "inviteDeclineButton": "Từ chối",
+  "youLabel": "Bạn",
+  "eventTypeMaintenance": "Bảo dưỡng",
+  "eventTypeOilChange": "Thay dầu",
+  "eventTypeFuel": "Đổ xăng",
+  "eventTypeRepair": "Sửa chữa",
+  "eventTypeCapture": "Capture",
+  "eventTypeCheckin": "Check-in",
+  "timelineEmpty": "Chưa có nhật ký nào. Bấm + để thêm.",
+  "timelineAddEvent": "Thêm nhật ký",
+  "timelineFilterAll": "Tất cả",
+  "timelineLoadingOlder": "Đang tải nhật ký cũ hơn...",
+  "eventDateLabel": "Ngày",
+  "eventCostLabel": "Chi phí",
+  "eventNotesLabel": "Ghi chú",
+  "eventOdometerLabel": "Số ODO ({unit})",
+  "eventPhotosLabel": "Ảnh",
+  "eventAddPhotoButton": "Thêm ảnh",
+  "eventPhotosRequired": "Cần thêm ít nhất 1 ảnh",
+  "eventLocationNameLabel": "Tên địa điểm",
+  "eventUseCurrentLocationButton": "Dùng vị trí hiện tại",
+  "eventLocationCaptured": "Đã lấy được vị trí",
+  "eventLocationRequired": "Cần lấy vị trí trước",
+  "eventDeleteConfirmTitle": "Xoá nhật ký này?",
+  "eventEditNotAllowed": "Bạn chỉ được sửa/xoá nhật ký do chính mình tạo",
+  "locationPermissionDenied": "Quyền vị trí bị từ chối",
+  "remindersTitle": "Nhắc lịch",
+  "reminderEnabledLabel": "Bật nhắc",
+  "reminderIntervalKmLabel": "Mỗi ({unit})",
+  "reminderIntervalMonthsLabel": "Mỗi (tháng)",
+  "reminderSavedMessage": "Đã lưu cấu hình nhắc lịch",
+  "reminderKmOrMonthsHint": "Nhắc khi đạt mốc nào sớm hơn giữa km và thời gian",
+  "reminderCaptureHint": "Nhắc bạn chụp lại ảnh tình trạng xe theo chu kỳ định kỳ",
+  "dashboardTitle": "Dashboard chi phí",
+  "dashboardAllVehicles": "Tất cả xe",
+  "periodMonth": "Tháng",
+  "periodQuarter": "Quý",
+  "periodYear": "Năm",
+  "dashboardBudgetLegend": "Ngân sách",
+  "dashboardEmpty": "Chưa có dữ liệu chi phí",
+  "dashboardAddExpense": "Thêm chi phí",
+  "dashboardSelectVehicleTitle": "Chọn xe",
+  "budgetsTitle": "Ngân sách",
+  "budgetAddButton": "Thêm ngân sách",
+  "budgetFormTitleAdd": "Thêm ngân sách",
+  "budgetFormTitleEdit": "Sửa ngân sách",
+  "budgetMonthLabel": "Tháng (yyyy-MM)",
+  "budgetMonthlyLimitLabel": "Hạn mức tháng",
+  "budgetCategoryLabel": "Danh mục",
+  "budgetVehicleLabel": "Xe",
+  "budgetAllCategories": "Tổng",
+  "budgetAllVehiclesOption": "Tất cả xe",
+  "budgetsEmpty": "Chưa có ngân sách nào. Thêm để theo dõi chi tiêu.",
+  "budgetProgressLabel": "{spent} / {limit}",
+  "budgetThresholdReached": "Cảnh báo ngân sách: {name} đã đạt {percent}%",
+  "overviewViewAll": "Xem tất cả",
+  "overviewMoreVehicles": "{count, plural, other{+{count} xe khác}}",
+  "@overviewMoreVehicles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewSpendTitle": "Chi tiêu tháng này",
+  "overviewSpendDeltaUp": "+{percent}% so với tháng trước",
+  "@overviewSpendDeltaUp": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewSpendDeltaDown": "-{percent}% so với tháng trước",
+  "@overviewSpendDeltaDown": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewSpendBudgetUsed": "{percent}% ngân sách",
+  "@overviewSpendBudgetUsed": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewSpendEmpty": "Tháng này chưa có chi tiêu.",
+  "overviewRemindersTitle": "Nhắc lịch sắp tới",
+  "overviewRemindersEmpty": "Chưa có nhắc lịch sắp tới",
+  "overviewReminderDueInDays": "{days, plural, other{Còn {days} ngày}}",
+  "@overviewReminderDueInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewReminderDueToday": "Đến hạn hôm nay",
+  "overviewReminderOverdueDays": "{days, plural, other{Quá hạn {days} ngày}}",
+  "@overviewReminderOverdueDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewRecentTitle": "Hoạt động gần đây",
+  "overviewRecentEmpty": "Chưa có hoạt động nào",
+  "@vehicleOdometerLabel": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@eventOdometerLabel": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@reminderIntervalKmLabel": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewReminderDistanceLeft": "Còn {distance}",
+  "@overviewReminderDistanceLeft": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewReminderOverdueDistance": "Quá hạn {distance}",
+  "@overviewReminderOverdueDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDistanceUnit": "Đơn vị khoảng cách",
+  "settingsDistanceKm": "Ki-lô-mét (km)",
+  "settingsDistanceMi": "Dặm (mi)",
+  "settingsDateFormat": "Định dạng ngày",
+  "settingsTimeFormat": "Định dạng giờ",
+  "settingsTime24": "24 giờ",
+  "settingsTime12": "12 giờ (SA/CH)",
+  "settingsPreviewTitle": "Xem trước",
+  "eventTimeLabel": "Giờ",
+  "accountRate": "Đánh giá ứng dụng",
+  "accountFeedback": "Gửi phản hồi",
+  "accountVersion": "Phiên bản {version}",
+  "accountOpenLinkFailed": "Không mở được liên kết",
+  "@accountVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "vehicleTabInfo": "Thông tin",
+  "adLabel": "Quảng cáo",
+  "premiumLegalSentence": "Khi tiếp tục, bạn đồng ý với {terms} và {privacy}.",
+  "@premiumLegalSentence": {
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetDeleteConfirmTitle": "Xóa ngân sách này?",
+  "budgetDeleteConfirmMessage": "Ngân sách này sẽ bị xóa vĩnh viễn.",
+  "budgetDeletedMessage": "Đã xóa ngân sách",
+  "reminderMonthsOption": "{months, plural, other{{months} tháng}}",
+  "@reminderMonthsOption": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardSelectTypeTitle": "Loại",
+  "vehicleLimitNotice": "Gói Freemium chỉ được tối đa 1 xe.",
+  "actionUpgrade": "Nâng cấp",
+  "eventDeletedMessage": "Đã xóa nhật ký",
+  "actionAdd": "Thêm",
+  "dashboardRuleMonth": "3 tháng gần nhất. Cột chồng theo loại chi phí; cột mờ phía sau là ngân sách tổng của tháng đó (nếu có đặt).",
+  "dashboardRuleQuarter": "3 quý gần nhất. Cột chồng theo loại chi phí; cột mờ phía sau là ngân sách tổng của quý đó (nếu có đặt).",
+  "dashboardRuleYear": "3 năm gần nhất. Cột chồng theo loại chi phí; cột mờ phía sau là ngân sách tổng của năm đó (nếu có đặt).",
+  "dashboardOfBudget": "trên {budget} ngân sách",
+  "dashboardTooltipTotal": "Tổng",
+  "@dashboardOfBudget": {
+    "placeholders": {
+      "budget": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDisplayTitle": "Cài đặt hiển thị",
+  "settingsNotificationsTitle": "Cài đặt thông báo",
+  "notifOnTitle": "Thông báo đang bật",
+  "notifOnMessage": "Bạn sẽ nhận các nhắc nhở và cảnh báo được chọn bên dưới.",
+  "notifOffTitle": "Thông báo đang tắt",
+  "notifOffMessage": "Bật thông báo để nhận nhắc lịch bảo dưỡng và cảnh báo ngân sách đúng lúc.",
+  "notifEnableButton": "Bật thông báo",
+  "notifBlockedHint": "Thông báo của ứng dụng đang bị chặn. Hãy cho phép trong cài đặt thiết bị.",
+  "notifTypesTitle": "Nhận thông báo về",
+  "notifTypeMaintenance": "Nhắc bảo dưỡng",
+  "notifTypeOilChange": "Nhắc thay dầu",
+  "notifTypeCapture": "Nhắc chụp ảnh xe",
+  "notifTypeBudget": "Cảnh báo ngân sách",
+  "notifScheduleTitle": "Lịch nhắc",
+  "notifTimeLabel": "Nhắc vào lúc",
+  "notifLeadLabel": "Nhắc trước",
+  "notifLeadOption": "{days, plural, =0{Đúng ngày đến hạn} other{Trước {days} ngày}}",
+  "@notifLeadOption": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "supportTitle": "Hỗ trợ",
+  "supportAbout": "Về Gendo Studio",
+  "supportVersionLabel": "Phiên bản",
+  "notifMasterLabel": "Nhận thông báo đẩy",
+  "notifDialogTitle": "Cho phép thông báo",
+  "notifOpenSettings": "Mở cài đặt"
+}

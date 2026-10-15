@@ -1,0 +1,445 @@
+{
+  "@@locale": "en",
+  "navHome": "Home",
+  "navOverview": "Overview",
+  "fieldEnterPlaceholder": "Enter {field}",
+  "@fieldEnterPlaceholder": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
+  "fieldSelectPlaceholder": "Select {field}",
+  "@fieldSelectPlaceholder": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
+  "actionShowPassword": "Show password",
+  "actionHidePassword": "Hide password",
+  "pressBackAgainToExit": "Press back again to exit",
+  "navVehicles": "Vehicles",
+  "navTimeline": "Timeline",
+  "navBudget": "Budget",
+  "navExpenses": "Expenses",
+  "navShop": "Shop",
+  "navPremium": "Upgrade to Premium",
+  "navSettings": "Settings",
+  "navAccount": "Account",
+  "homeWelcome": "Welcome to {appName}",
+  "@homeWelcome": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSubtitle": "Track maintenance, expenses and budget for your vehicles.",
+  "settingsLanguage": "Language",
+  "languageVietnamese": "Vietnamese",
+  "languageEnglish": "English",
+  "comingSoon": "Coming soon",
+  "legalGuide": "User Guide",
+  "legalFaq": "FAQ",
+  "legalTerms": "Terms of Service",
+  "legalPrivacy": "Privacy Policy",
+  "authLoginTitle": "Sign in",
+  "authRegisterTitle": "Create account",
+  "authForgotPasswordTitle": "Reset password",
+  "authEmailLabel": "Email",
+  "authPasswordLabel": "Password",
+  "authConfirmPasswordLabel": "Confirm password",
+  "authLoginButton": "Sign in",
+  "authRegisterButton": "Create account",
+  "authGoogleButton": "Continue with Google",
+  "authSendResetLinkButton": "Send reset link",
+  "authNoAccount": "Don't have an account?",
+  "authHaveAccount": "Already have an account?",
+  "authRegisterLink": "Sign up",
+  "authLoginLink": "Sign in",
+  "authForgotPasswordLink": "Forgot password?",
+  "authResetLinkSent": "Password reset email sent. Check your inbox.",
+  "authPasswordMismatch": "Passwords do not match",
+  "authGenericError": "Something went wrong. Please try again.",
+  "authLogout": "Sign out",
+  "authLogoutConfirmTitle": "Sign out?",
+  "authLogoutConfirmMessage": "Are you sure you want to sign out?",
+  "authSignedInAs": "Signed in as {email}",
+  "@authSignedInAs": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "accountTitle": "Account",
+  "accountEditTitle": "Edit profile",
+  "accountNameLabel": "Name",
+  "accountCurrencyLabel": "Currency",
+  "accountUpdatedMessage": "Account updated",
+  "accountConnectedAccountsTitle": "Connected accounts",
+  "accountProviderPassword": "Email & password",
+  "errorGeneric": "Something went wrong. Please try again.",
+  "actionSave": "Save",
+  "actionCancel": "Cancel",
+  "actionEdit": "Edit",
+  "actionDelete": "Delete",
+  "vehiclesEmpty": "You don't have any vehicles yet. Add one to get started.",
+  "vehicleAddButton": "Add vehicle",
+  "vehicleFormTitleAdd": "Add vehicle",
+  "vehicleFormTitleEdit": "Edit vehicle",
+  "vehicleNameLabel": "Name",
+  "vehicleTypeLabel": "Vehicle type",
+  "vehicleTypeCar": "Car",
+  "vehicleTypeElectricCar": "Electric car",
+  "vehicleTypeMotorbike": "Motorbike",
+  "vehicleTypeElectricMotorbike": "Electric motorbike",
+  "vehicleTypeElectricBicycle": "Electric bicycle",
+  "vehicleTypeOther": "Other",
+  "vehicleTypeLockedHint": "The vehicle type can't be changed after creation.",
+  "vehicleBrandOther": "Other brand",
+  "vehicleBrandSearch": "Search brands...",
+  "vehicleBrandNameLabel": "Brand name",
+  "vehiclePlateLabel": "License plate",
+  "vehicleBrandLabel": "Brand",
+  "vehicleModelLabel": "Model",
+  "vehicleYearLabel": "Year",
+  "vehicleOdometerLabel": "Odometer ({unit})",
+  "vehicleLimitReached": "Free plan allows only 1 vehicle. Upgrade to Premium to add more.",
+  "sharingRequiresPremium": "Sharing a vehicle with other members requires Premium.",
+  "premiumScreenTitle": "Premium",
+  "premiumStatusFreeLabel": "You're on the Free plan.",
+  "premiumStatusPremiumUntilLabel": "You're on Premium — renews/expires on {date}.",
+  "@premiumStatusPremiumUntilLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumStatusLifetimeLabel": "You have lifetime Premium.",
+  "premium6MonthsTitle": "6-month plan",
+  "premium1YearTitle": "1-year plan",
+  "premiumLifetimeTitle": "Lifetime",
+  "premium6MonthsFallbackPrice": "129,000₫",
+  "premium1YearFallbackPrice": "249,000₫",
+  "premiumLifetimeFallbackPrice": "1,299,000₫",
+  "premiumBuyButton": "Buy",
+  "premiumRestoreButton": "Restore purchases",
+  "premiumProductUnavailableMessage": "This product isn't available on the store yet.",
+  "premiumPurchaseErrorMessage": "Couldn't start the purchase. Please try again.",
+  "premiumRestoreRequestedMessage": "Restore request sent.",
+  "premiumHeroTitle": "Go Premium",
+  "premiumHeroSubtitle": "Unlock everything {appName} has to offer.",
+  "@premiumHeroSubtitle": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumBenefitVehicles": "Manage unlimited vehicles",
+  "premiumBenefitSharing": "Share vehicles with unlimited members",
+  "premiumBenefitNoAds": "No ads, ever",
+  "premiumBestValueBadge": "Best value",
+  "premiumOneTimeCaption": "One-time payment",
+  "premiumPerMonthCaption": "{price} / month",
+  "@premiumPerMonthCaption": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumContinueButton": "Upgrade to Premium",
+  "premiumVerificationPendingNote": "Payment verification is still being set up on our end — Premium will activate once it's ready.",
+  "shopSearchHint": "Search products",
+  "shopCategoryAll": "All",
+  "shopEmptyMessage": "No products yet.",
+  "shopOpenLinkErrorMessage": "Couldn't open this product's link.",
+  "linkOpenErrorMessage": "Couldn't open this link.",
+  "premiumCheckoutErrorMessage": "Couldn't start checkout. Please try again.",
+  "premiumSuccessTitle": "Payment successful",
+  "premiumSuccessMessage": "Thank you! Your Premium plan will activate once payment is confirmed, usually within seconds.",
+  "premiumCancelTitle": "Checkout canceled",
+  "premiumCancelMessage": "You canceled the checkout. No charge was made.",
+  "vehicleDeleteConfirmTitle": "Delete this vehicle?",
+  "vehicleDeleteConfirmMessage": "This action cannot be undone.",
+  "vehicleDeleteBlockedHasMembers": "Remove all members before deleting this vehicle.",
+  "vehicleMembersTitle": "Members",
+  "vehicleOwnerLabel": "Owner",
+  "vehicleMemberLabel": "Member",
+  "vehicleInviteTitle": "Invite a member",
+  "vehicleInviteEmailLabel": "Email",
+  "vehicleInviteSendButton": "Send invite",
+  "vehicleInviteSentMessage": "Invite sent. They will see it once they sign in with that email.",
+  "vehicleInviteHistoryTitle": "Invitations sent",
+  "inviteStatusPending": "Pending",
+  "inviteStatusAccepted": "Accepted",
+  "inviteStatusDeclined": "Declined",
+  "pendingInvitesTitle": "Invitations for you",
+  "pendingInvitesForVehicle": "Invitation to join a vehicle",
+  "inviteAcceptButton": "Accept",
+  "inviteDeclineButton": "Decline",
+  "youLabel": "You",
+  "eventTypeMaintenance": "Maintenance",
+  "eventTypeOilChange": "Oil change",
+  "eventTypeFuel": "Fuel",
+  "eventTypeRepair": "Repair",
+  "eventTypeCapture": "Capture",
+  "eventTypeCheckin": "Check-in",
+  "timelineEmpty": "No events yet. Tap + to add one.",
+  "timelineAddEvent": "Add event",
+  "timelineFilterAll": "All",
+  "timelineLoadingOlder": "Loading older events...",
+  "eventDateLabel": "Date",
+  "eventCostLabel": "Cost",
+  "eventNotesLabel": "Notes",
+  "eventOdometerLabel": "Odometer ({unit})",
+  "eventPhotosLabel": "Photos",
+  "eventAddPhotoButton": "Add photo",
+  "eventPhotosRequired": "Add at least 1 photo",
+  "eventLocationNameLabel": "Location name",
+  "eventUseCurrentLocationButton": "Use current location",
+  "eventLocationCaptured": "Location captured",
+  "eventLocationRequired": "Capture a location first",
+  "eventDeleteConfirmTitle": "Delete this event?",
+  "eventEditNotAllowed": "You can only edit or delete events you created",
+  "locationPermissionDenied": "Location permission denied",
+  "remindersTitle": "Reminders",
+  "reminderEnabledLabel": "Enabled",
+  "reminderIntervalKmLabel": "Every ({unit})",
+  "reminderIntervalMonthsLabel": "Every (months)",
+  "reminderSavedMessage": "Reminder settings saved",
+  "reminderKmOrMonthsHint": "Reminds when either milestone is reached first",
+  "reminderCaptureHint": "Reminds you to take new photos of your vehicle on a regular schedule",
+  "dashboardTitle": "Expense dashboard",
+  "dashboardAllVehicles": "All vehicles",
+  "periodMonth": "Month",
+  "periodQuarter": "Quarter",
+  "periodYear": "Year",
+  "dashboardBudgetLegend": "Budget",
+  "dashboardEmpty": "No expense data yet",
+  "dashboardAddExpense": "Add expense",
+  "dashboardSelectVehicleTitle": "Select a vehicle",
+  "budgetsTitle": "Budgets",
+  "budgetAddButton": "Add budget",
+  "budgetFormTitleAdd": "Add budget",
+  "budgetFormTitleEdit": "Edit budget",
+  "budgetMonthLabel": "Month (yyyy-MM)",
+  "budgetMonthlyLimitLabel": "Monthly limit",
+  "budgetCategoryLabel": "Category",
+  "budgetVehicleLabel": "Vehicle",
+  "budgetAllCategories": "Total",
+  "budgetAllVehiclesOption": "All vehicles",
+  "budgetsEmpty": "No budgets yet. Add one to track your spending.",
+  "budgetProgressLabel": "{spent} / {limit}",
+  "@budgetProgressLabel": {
+    "placeholders": {
+      "spent": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetThresholdReached": "Budget alert: {name} reached {percent}%",
+  "@budgetThresholdReached": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewViewAll": "View all",
+  "overviewMoreVehicles": "{count, plural, =1{+1 more vehicle} other{+{count} more vehicles}}",
+  "@overviewMoreVehicles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewSpendTitle": "Spending this month",
+  "overviewSpendDeltaUp": "+{percent}% vs last month",
+  "@overviewSpendDeltaUp": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewSpendDeltaDown": "-{percent}% vs last month",
+  "@overviewSpendDeltaDown": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewSpendBudgetUsed": "{percent}% of budget",
+  "@overviewSpendBudgetUsed": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewSpendEmpty": "No spending recorded this month.",
+  "overviewRemindersTitle": "Upcoming reminders",
+  "overviewRemindersEmpty": "No upcoming reminders",
+  "overviewReminderDueInDays": "{days, plural, =1{Due in 1 day} other{Due in {days} days}}",
+  "@overviewReminderDueInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewReminderDueToday": "Due today",
+  "overviewReminderOverdueDays": "{days, plural, =1{Overdue by 1 day} other{Overdue by {days} days}}",
+  "@overviewReminderOverdueDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewRecentTitle": "Recent activity",
+  "overviewRecentEmpty": "No activity yet",
+  "@vehicleOdometerLabel": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@eventOdometerLabel": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@reminderIntervalKmLabel": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewReminderDistanceLeft": "{distance} left",
+  "@overviewReminderDistanceLeft": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewReminderOverdueDistance": "Overdue by {distance}",
+  "@overviewReminderOverdueDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDistanceUnit": "Distance unit",
+  "settingsDistanceKm": "Kilometers (km)",
+  "settingsDistanceMi": "Miles (mi)",
+  "settingsDateFormat": "Date format",
+  "settingsTimeFormat": "Time format",
+  "settingsTime24": "24-hour",
+  "settingsTime12": "12-hour (AM/PM)",
+  "settingsPreviewTitle": "Preview",
+  "eventTimeLabel": "Time",
+  "accountRate": "Rate the app",
+  "accountFeedback": "Send feedback",
+  "accountVersion": "Version {version}",
+  "accountOpenLinkFailed": "Couldn't open the link",
+  "@accountVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "vehicleTabInfo": "Information",
+  "adLabel": "Ad",
+  "premiumLegalSentence": "By continuing, you agree to our {terms} and {privacy}.",
+  "@premiumLegalSentence": {
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetDeleteConfirmTitle": "Delete this budget?",
+  "budgetDeleteConfirmMessage": "This budget will be permanently removed.",
+  "budgetDeletedMessage": "Budget deleted",
+  "reminderMonthsOption": "{months, plural, =1{1 month} other{{months} months}}",
+  "@reminderMonthsOption": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardSelectTypeTitle": "Type",
+  "vehicleLimitNotice": "Free plan allows only 1 vehicle.",
+  "actionUpgrade": "Upgrade",
+  "eventDeletedMessage": "Event deleted",
+  "actionAdd": "Add",
+  "dashboardRuleMonth": "Last 3 months. Bars are stacked by expense type; the shaded bar behind each one is that month's overall budget (if set).",
+  "dashboardRuleQuarter": "Last 3 quarters. Bars are stacked by expense type; the shaded bar behind each one is that quarter's overall budget (if set).",
+  "dashboardRuleYear": "Last 3 years. Bars are stacked by expense type; the shaded bar behind each one is that year's overall budget (if set).",
+  "dashboardOfBudget": "of {budget} budget",
+  "dashboardTooltipTotal": "Total",
+  "@dashboardOfBudget": {
+    "placeholders": {
+      "budget": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDisplayTitle": "Display settings",
+  "settingsNotificationsTitle": "Notification settings",
+  "notifOnTitle": "Notifications are on",
+  "notifOnMessage": "You will receive the reminders and alerts selected below.",
+  "notifOffTitle": "Notifications are off",
+  "notifOffMessage": "Turn on notifications to get maintenance reminders and budget alerts on time.",
+  "notifEnableButton": "Turn on notifications",
+  "notifBlockedHint": "Notifications are blocked for this app. Allow them in your device settings.",
+  "notifTypesTitle": "Notify me about",
+  "notifTypeMaintenance": "Maintenance reminders",
+  "notifTypeOilChange": "Oil change reminders",
+  "notifTypeCapture": "Photo update reminders",
+  "notifTypeBudget": "Budget alerts",
+  "notifScheduleTitle": "Reminder schedule",
+  "notifTimeLabel": "Remind me at",
+  "notifLeadLabel": "How early",
+  "notifLeadOption": "{days, plural, =0{On the due day} =1{1 day before} other{{days} days before}}",
+  "@notifLeadOption": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "supportTitle": "Support",
+  "supportAbout": "About Gendo Studio",
+  "supportVersionLabel": "Version",
+  "notifMasterLabel": "Push notifications",
+  "notifDialogTitle": "Allow notifications",
+  "notifOpenSettings": "Open settings"
+}
