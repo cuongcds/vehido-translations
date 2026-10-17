@@ -18,7 +18,7 @@ scripts/
 
 ## How to contribute
 
-1. **Fork** this repository and clone your fork.
+1. **Fork** [cuongcds/vehido-translations](https://github.com/cuongcds/vehido-translations) and clone your fork.
 2. **Copy the English file** to your language code (ISO 639-1, e.g. `th`, `fr`, `es`, `id`; regional variants like `pt_BR` or `zh_TW` are fine):
    ```bash
    cp arb/app_en.arb arb/app_th.arb

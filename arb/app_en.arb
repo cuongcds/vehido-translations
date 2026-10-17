@@ -99,7 +99,6 @@
   "vehicleTypeElectricMotorbike": "Electric motorbike",
   "vehicleTypeElectricBicycle": "Electric bicycle",
   "vehicleTypeOther": "Other",
-  "vehicleTypeLockedHint": "The vehicle type can't be changed after creation.",
   "vehicleBrandOther": "Other brand",
   "vehicleBrandSearch": "Search brands...",
   "vehicleBrandNameLabel": "Brand name",
@@ -124,9 +123,9 @@
   "premium6MonthsTitle": "6-month plan",
   "premium1YearTitle": "1-year plan",
   "premiumLifetimeTitle": "Lifetime",
-  "premium6MonthsFallbackPrice": "129,000₫",
+  "premium6MonthsFallbackPrice": "149,000₫",
   "premium1YearFallbackPrice": "249,000₫",
-  "premiumLifetimeFallbackPrice": "1,299,000₫",
+  "premiumLifetimeFallbackPrice": "999,000₫",
   "premiumBuyButton": "Buy",
   "premiumRestoreButton": "Restore purchases",
   "premiumProductUnavailableMessage": "This product isn't available on the store yet.",
@@ -162,6 +161,8 @@
   "shopOpenLinkErrorMessage": "Couldn't open this product's link.",
   "linkOpenErrorMessage": "Couldn't open this link.",
   "premiumCheckoutErrorMessage": "Couldn't start checkout. Please try again.",
+  "premiumAlreadyOwnedMessage": "You already have Premium. Upgrading plans isn't supported yet.",
+  "planNotLoadedMessage": "Couldn't verify your plan yet. Please try again in a moment.",
   "premiumSuccessTitle": "Payment successful",
   "premiumSuccessMessage": "Thank you! Your Premium plan will activate once payment is confirmed, usually within seconds.",
   "premiumCancelTitle": "Checkout canceled",
@@ -201,7 +202,21 @@
   "eventOdometerLabel": "Odometer ({unit})",
   "eventPhotosLabel": "Photos",
   "eventAddPhotoButton": "Add photo",
-  "eventPhotosRequired": "Add at least 1 photo",
+  "eventPhotosHint": "Optional, up to {max} photos",
+  "@eventPhotosHint": {"placeholders": {"max": {"type": "int"}}},
+  "eventPhotosLimitReached": "You can add up to {max} photos",
+  "@eventPhotosLimitReached": {"placeholders": {"max": {"type": "int"}}},
+  "photoRemoveTooltip": "Remove photo",
+  "photoUnavailable": "Photo unavailable",
+  "photoStorageFull": "Photo storage is full. Remove some photos and try again.",
+  "photoCropTitle": "Crop photo",
+  "photoCropDone": "Done",
+  "photoStorageTitle": "Photo storage",
+  "photoStorageUsage": "{used} of {limit} used",
+  "@photoStorageUsage": {"placeholders": {"used": {"type": "String"}, "limit": {"type": "String"}}},
+  "photoStorageCount": "{count} photos on this device",
+  "@photoStorageCount": {"placeholders": {"count": {"type": "int"}}},
+  "photoStorageLocalNote": "Photos are kept on this device only and are not visible on other devices.",
   "eventLocationNameLabel": "Location name",
   "eventUseCurrentLocationButton": "Use current location",
   "eventLocationCaptured": "Location captured",
@@ -414,10 +429,6 @@
   },
   "settingsDisplayTitle": "Display settings",
   "settingsNotificationsTitle": "Notification settings",
-  "notifOnTitle": "Notifications are on",
-  "notifOnMessage": "You will receive the reminders and alerts selected below.",
-  "notifOffTitle": "Notifications are off",
-  "notifOffMessage": "Turn on notifications to get maintenance reminders and budget alerts on time.",
   "notifEnableButton": "Turn on notifications",
   "notifBlockedHint": "Notifications are blocked for this app. Allow them in your device settings.",
   "notifTypesTitle": "Notify me about",
@@ -441,5 +452,87 @@
   "supportVersionLabel": "Version",
   "notifMasterLabel": "Push notifications",
   "notifDialogTitle": "Allow notifications",
-  "notifOpenSettings": "Open settings"
+  "notifOpenSettings": "Open settings",
+  "supportTranslate": "Translate into your language",
+  "supportCredits": "Open-source credits",
+  "creditsIntro": "{appName} is built with these open-source projects. Thank you to their authors.",
+  "@creditsIntro": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "installBannerTitle": "Install {appName} on your device",
+  "@installBannerTitle": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "installBannerIos": "Tap the Share button, then choose “Add to Home Screen”.",
+  "installBannerAndroid": "Open the browser menu, then choose “Install app” or “Add to Home screen”.",
+  "installBannerAndroidPrompt": "Add it to your home screen to open it faster.",
+  "installBannerAction": "Install",
+  "installBannerDismiss": "Dismiss",
+  "actionOk": "OK",
+  "supportDangerZone": "Danger zone",
+  "dangerZoneTitle": "Danger zone",
+  "dangerZoneDeleteTitle": "Delete account",
+  "dangerZoneDeleteDesc": "Request deletion of your account and all of its data.",
+  "dangerZoneGraceNotice": "Your data will be permanently deleted after {days} days if you do not sign in again. If you sign in again before then, the request is cancelled and nothing is deleted.",
+  "@dangerZoneGraceNotice": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "dangerZoneWhatTitle": "What will be deleted",
+  "dangerZoneWhatAccount": "Your account and profile",
+  "dangerZoneWhatVehicles": "Vehicles you own, with their events, expenses and budgets",
+  "dangerZoneWhatInvites": "Share invites you sent or received",
+  "dangerZoneWhatShared": "You will also be removed from vehicles shared with you.",
+  "dangerZoneRequestButton": "Request account deletion",
+  "dangerZoneConfirmTitle": "Confirm account deletion",
+  "dangerZoneConfirmDesc": "Type your email {email} to confirm.",
+  "@dangerZoneConfirmDesc": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "dangerZoneEmailHint": "Your email",
+  "dangerZoneConfirmAction": "Request deletion",
+  "dangerZoneSubmittedTitle": "Request received",
+  "dangerZoneSubmittedMessage": "Your account will be deleted after {days} days. Sign in again before then to cancel. You will now be signed out.",
+  "@dangerZoneSubmittedMessage": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "dangerZoneSubmitFailed": "Could not submit the request. Please try again.",
+  "subscriptionInfoTitle": "Premium membership",
+  "subscriptionStatusLabel": "Status",
+  "subscriptionStatusActive": "Active",
+  "subscriptionStatusFree": "Free plan",
+  "subscriptionFreeMessage": "You are currently on the Free plan.",
+  "subscriptionPlanLabel": "Plan",
+  "subscriptionPlanLifetime": "Lifetime",
+  "subscriptionPlanRecurring": "Subscription",
+  "subscriptionValidUntilLabel": "Valid until",
+  "subscriptionNeverExpires": "Never expires",
+  "subscriptionRenewsOnLabel": "Renews on",
+  "subscriptionAutoRenewLabel": "Auto-renewal",
+  "subscriptionAutoRenewValue": "Renews automatically unless you cancel it before the renewal date.",
+  "subscriptionManageMobile": "Manage or cancel it in your app store subscription settings.",
+  "subscriptionManageWeb": "To manage or cancel it, contact support.",
+  "subscriptionSourceLabel": "Purchased via",
+  "subscriptionSourceMobile": "Mobile app",
+  "subscriptionSourceWeb": "Web",
+  "subscriptionBenefitsTitle": "Your benefits"
 }

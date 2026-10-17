@@ -3,7 +3,21 @@
   "navHome": "Trang chủ",
   "navOverview": "Tổng quan",
   "fieldEnterPlaceholder": "Nhập {field}",
+  "@fieldEnterPlaceholder": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
   "fieldSelectPlaceholder": "Chọn {field}",
+  "@fieldSelectPlaceholder": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
   "actionShowPassword": "Hiện mật khẩu",
   "actionHidePassword": "Ẩn mật khẩu",
   "pressBackAgainToExit": "Nhấn Back lần nữa để thoát",
@@ -54,6 +68,13 @@
   "authLogoutConfirmTitle": "Đăng xuất?",
   "authLogoutConfirmMessage": "Bạn có chắc muốn đăng xuất không?",
   "authSignedInAs": "Đã đăng nhập: {email}",
+  "@authSignedInAs": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "accountTitle": "Tài khoản",
   "accountEditTitle": "Chỉnh sửa hồ sơ",
   "accountNameLabel": "Tên",
@@ -78,7 +99,6 @@
   "vehicleTypeElectricMotorbike": "Xe máy điện",
   "vehicleTypeElectricBicycle": "Xe đạp điện",
   "vehicleTypeOther": "Khác",
-  "vehicleTypeLockedHint": "Loại xe không thể thay đổi sau khi tạo.",
   "vehicleBrandOther": "Hãng khác",
   "vehicleBrandSearch": "Tìm hãng xe...",
   "vehicleBrandNameLabel": "Tên hãng xe",
@@ -92,13 +112,20 @@
   "premiumScreenTitle": "Premium",
   "premiumStatusFreeLabel": "Bạn đang dùng gói Free.",
   "premiumStatusPremiumUntilLabel": "Bạn đang dùng Premium — gia hạn/hết hạn ngày {date}.",
+  "@premiumStatusPremiumUntilLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "premiumStatusLifetimeLabel": "Bạn đang dùng Premium trọn đời.",
   "premium6MonthsTitle": "Gói 6 tháng",
   "premium1YearTitle": "Gói 1 năm",
   "premiumLifetimeTitle": "Trọn đời",
-  "premium6MonthsFallbackPrice": "129.000đ",
+  "premium6MonthsFallbackPrice": "149.000đ",
   "premium1YearFallbackPrice": "249.000đ",
-  "premiumLifetimeFallbackPrice": "1.299.000đ",
+  "premiumLifetimeFallbackPrice": "999.000đ",
   "premiumBuyButton": "Mua",
   "premiumRestoreButton": "Khôi phục giao dịch",
   "premiumProductUnavailableMessage": "Sản phẩm này chưa sẵn sàng trên store.",
@@ -134,6 +161,8 @@
   "shopOpenLinkErrorMessage": "Không thể mở liên kết sản phẩm này.",
   "linkOpenErrorMessage": "Không thể mở liên kết này.",
   "premiumCheckoutErrorMessage": "Không thể tạo phiên thanh toán. Vui lòng thử lại.",
+  "premiumAlreadyOwnedMessage": "Bạn đang sở hữu Premium. Hiện chưa hỗ trợ nâng cấp gói.",
+  "planNotLoadedMessage": "Chưa xác minh được gói dịch vụ của bạn. Vui lòng thử lại sau giây lát.",
   "premiumSuccessTitle": "Thanh toán thành công",
   "premiumSuccessMessage": "Cảm ơn bạn! Gói Premium sẽ được kích hoạt sau khi hệ thống xác nhận thanh toán, thường trong vài giây.",
   "premiumCancelTitle": "Đã huỷ thanh toán",
@@ -173,7 +202,48 @@
   "eventOdometerLabel": "Số ODO ({unit})",
   "eventPhotosLabel": "Ảnh",
   "eventAddPhotoButton": "Thêm ảnh",
-  "eventPhotosRequired": "Cần thêm ít nhất 1 ảnh",
+  "eventPhotosHint": "Không bắt buộc, tối đa {max} ảnh",
+  "@eventPhotosHint": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "eventPhotosLimitReached": "Chỉ thêm được tối đa {max} ảnh",
+  "@eventPhotosLimitReached": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "photoRemoveTooltip": "Xóa ảnh",
+  "photoUnavailable": "Ảnh không khả dụng",
+  "photoStorageFull": "Bộ nhớ ảnh đã đầy. Hãy xóa bớt ảnh rồi thử lại.",
+  "photoCropTitle": "Cắt ảnh",
+  "photoCropDone": "Xong",
+  "photoStorageTitle": "Bộ nhớ ảnh",
+  "photoStorageUsage": "Đã dùng {used} / {limit}",
+  "@photoStorageUsage": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "photoStorageCount": "{count} ảnh trên thiết bị này",
+  "@photoStorageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "photoStorageLocalNote": "Ảnh chỉ lưu trên thiết bị này và không hiển thị trên thiết bị khác.",
   "eventLocationNameLabel": "Tên địa điểm",
   "eventUseCurrentLocationButton": "Dùng vị trí hiện tại",
   "eventLocationCaptured": "Đã lấy được vị trí",
@@ -209,7 +279,27 @@
   "budgetAllVehiclesOption": "Tất cả xe",
   "budgetsEmpty": "Chưa có ngân sách nào. Thêm để theo dõi chi tiêu.",
   "budgetProgressLabel": "{spent} / {limit}",
+  "@budgetProgressLabel": {
+    "placeholders": {
+      "spent": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
   "budgetThresholdReached": "Cảnh báo ngân sách: {name} đã đạt {percent}%",
+  "@budgetThresholdReached": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
   "overviewViewAll": "Xem tất cả",
   "overviewMoreVehicles": "{count, plural, other{+{count} xe khác}}",
   "@overviewMoreVehicles": {
@@ -366,10 +456,6 @@
   },
   "settingsDisplayTitle": "Cài đặt hiển thị",
   "settingsNotificationsTitle": "Cài đặt thông báo",
-  "notifOnTitle": "Thông báo đang bật",
-  "notifOnMessage": "Bạn sẽ nhận các nhắc nhở và cảnh báo được chọn bên dưới.",
-  "notifOffTitle": "Thông báo đang tắt",
-  "notifOffMessage": "Bật thông báo để nhận nhắc lịch bảo dưỡng và cảnh báo ngân sách đúng lúc.",
   "notifEnableButton": "Bật thông báo",
   "notifBlockedHint": "Thông báo của ứng dụng đang bị chặn. Hãy cho phép trong cài đặt thiết bị.",
   "notifTypesTitle": "Nhận thông báo về",
@@ -393,5 +479,87 @@
   "supportVersionLabel": "Phiên bản",
   "notifMasterLabel": "Nhận thông báo đẩy",
   "notifDialogTitle": "Cho phép thông báo",
-  "notifOpenSettings": "Mở cài đặt"
+  "notifOpenSettings": "Mở cài đặt",
+  "supportTranslate": "Dịch sang ngôn ngữ của bạn",
+  "supportCredits": "Thư viện mã nguồn mở",
+  "creditsIntro": "{appName} được xây dựng với các dự án mã nguồn mở sau. Cảm ơn các tác giả.",
+  "@creditsIntro": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "installBannerTitle": "Cài {appName} lên thiết bị của bạn",
+  "@installBannerTitle": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "installBannerIos": "Nhấn nút Chia sẻ, rồi chọn “Thêm vào Màn hình chính”.",
+  "installBannerAndroid": "Mở menu trình duyệt, rồi chọn “Cài đặt ứng dụng” hoặc “Thêm vào màn hình chính”.",
+  "installBannerAndroidPrompt": "Thêm vào màn hình chính để mở nhanh hơn.",
+  "installBannerAction": "Cài đặt",
+  "installBannerDismiss": "Đóng",
+  "actionOk": "OK",
+  "supportDangerZone": "Vùng nguy hiểm",
+  "dangerZoneTitle": "Vùng nguy hiểm",
+  "dangerZoneDeleteTitle": "Xoá tài khoản",
+  "dangerZoneDeleteDesc": "Yêu cầu xoá tài khoản và toàn bộ dữ liệu của bạn.",
+  "dangerZoneGraceNotice": "Dữ liệu của bạn sẽ bị xoá vĩnh viễn sau {days} ngày nếu bạn không đăng nhập lại. Nếu đăng nhập lại trước thời hạn đó, yêu cầu sẽ bị huỷ và không có dữ liệu nào bị xoá.",
+  "@dangerZoneGraceNotice": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "dangerZoneWhatTitle": "Dữ liệu sẽ bị xoá",
+  "dangerZoneWhatAccount": "Tài khoản và hồ sơ của bạn",
+  "dangerZoneWhatVehicles": "Xe bạn sở hữu, kèm sự kiện, chi tiêu và ngân sách",
+  "dangerZoneWhatInvites": "Lời mời chia sẻ bạn đã gửi hoặc nhận",
+  "dangerZoneWhatShared": "Bạn cũng sẽ được gỡ khỏi các xe được chia sẻ với bạn.",
+  "dangerZoneRequestButton": "Yêu cầu xoá tài khoản",
+  "dangerZoneConfirmTitle": "Xác nhận xoá tài khoản",
+  "dangerZoneConfirmDesc": "Nhập email {email} để xác nhận.",
+  "@dangerZoneConfirmDesc": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "dangerZoneEmailHint": "Email của bạn",
+  "dangerZoneConfirmAction": "Yêu cầu xoá",
+  "dangerZoneSubmittedTitle": "Đã nhận yêu cầu",
+  "dangerZoneSubmittedMessage": "Tài khoản của bạn sẽ bị xoá sau {days} ngày. Hãy đăng nhập lại trước đó nếu muốn huỷ. Bạn sẽ được đăng xuất ngay bây giờ.",
+  "@dangerZoneSubmittedMessage": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "dangerZoneSubmitFailed": "Không gửi được yêu cầu. Vui lòng thử lại.",
+  "subscriptionInfoTitle": "Thành viên Premium",
+  "subscriptionStatusLabel": "Trạng thái",
+  "subscriptionStatusActive": "Đang hoạt động",
+  "subscriptionStatusFree": "Gói miễn phí",
+  "subscriptionFreeMessage": "Bạn đang dùng gói miễn phí.",
+  "subscriptionPlanLabel": "Gói",
+  "subscriptionPlanLifetime": "Trọn đời",
+  "subscriptionPlanRecurring": "Đăng ký định kỳ",
+  "subscriptionValidUntilLabel": "Có hiệu lực đến",
+  "subscriptionNeverExpires": "Không bao giờ hết hạn",
+  "subscriptionRenewsOnLabel": "Gia hạn vào",
+  "subscriptionAutoRenewLabel": "Tự động gia hạn",
+  "subscriptionAutoRenewValue": "Tự động gia hạn trừ khi bạn huỷ trước ngày gia hạn.",
+  "subscriptionManageMobile": "Quản lý hoặc huỷ trong phần đăng ký của cửa hàng ứng dụng.",
+  "subscriptionManageWeb": "Để quản lý hoặc huỷ, hãy liên hệ hỗ trợ.",
+  "subscriptionSourceLabel": "Mua qua",
+  "subscriptionSourceMobile": "Ứng dụng di động",
+  "subscriptionSourceWeb": "Web",
+  "subscriptionBenefitsTitle": "Quyền lợi của bạn"
 }
